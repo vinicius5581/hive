@@ -1,0 +1,72 @@
+body{
+    background-color: #ffe900;
+    background-size: 35vw 15vw;
+    background-position: top;
+    background-repeat: repeat-x;
+    background-image: url('../img/bg.png');
+}
+
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+img{
+  width: 20vw;
+}
+
+#mc_embed_signup{
+  padding: 2vw;
+  margin-top: 5vw;
+  background:transparent;
+  width: 40vw;
+  background: rgba(0,0,0, .1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#mc_embed_signup label {
+  font-size: 1.5vw !important;
+}
+
+#mc_embed_signup form {
+  margin:0;
+  padding: 0 !important;
+}
+
+#mc_embed_signup input.email {
+  width: 100% !important;
+  box-sizing: border-box;
+}
+
+#mc_embed_signup #mc-embedded-subscribe{
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+
+  body{
+      background-size: 95vw 40vw;
+  }
+
+  img{
+    width: 50vw;
+  }
+
+  #mc_embed_signup{
+    padding: 1vw;
+    width: 85vw;
+    margin-top: 10vw;
+  }
+
+  #mc_embed_signup label {
+    font-size: 4vw !important;
+  }
+
+}
